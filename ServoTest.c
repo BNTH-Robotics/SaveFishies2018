@@ -16,7 +16,7 @@ while(1==1)
 				wait1Msec(200);
 			}
 			else{
-				if(vexRT[Btn8U]==1)
+				if(vexRT[Btn8L]==1)
 					{
 						Svo1pos = Svo1pos-40;
 						motor[svo1]=Svo1pos;
