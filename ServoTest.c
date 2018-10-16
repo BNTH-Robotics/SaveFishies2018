@@ -11,14 +11,14 @@ while(1==1)
 	{
 		if(vexRT[Btn8R]==1)
 			{
-				Svo1pos += 40;
+				Svo1pos -= 30;
 				motor[svo1]=Svo1pos;
 				wait1Msec(200);
 			}
 			else{
 				if(vexRT[Btn8L]==1)
 					{
-						Svo1pos = Svo1pos-40;
+						Svo1pos += 30;
 						motor[svo1]=Svo1pos;
 						wait1Msec(200);
 					}
