@@ -3,7 +3,7 @@
 
 task main()
 {
-	int Svo1pos
+	int Svo1pos;
 	Svo1pos= -127;
 	motor[svo1]=Svo1pos;
 
@@ -11,18 +11,18 @@ while(1==1)
 	{
 		if(vexRT[Btn8R]==1)
 			{
-				Svo1pos += 40
+				Svo1pos += 40;
 				motor[svo1]=Svo1pos;
 				wait1Msec(200);
 			}
 			else{
 				if(vexRT[Btn8U]==1)
 					{
-						Svo1pos = Svo1pos-40
+						Svo1pos = Svo1pos-40;
 						motor[svo1]=Svo1pos;
+						wait1Msec(200);
 					}
 			}
 
 			}
 	}
-}
