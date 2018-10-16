@@ -1,0 +1,1 @@
+This git repository contains all the files we needed for the 2018 BEST robot and to control the testboard.
